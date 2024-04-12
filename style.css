@@ -31,6 +31,7 @@ body * {
 #container {
   width: 360px;
   margin: 56px auto 0px auto;
+  padding: 0px 24px;
   
 }
 
@@ -57,6 +58,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0px;
 }
 
 ul li a {
@@ -85,3 +88,21 @@ ul li a:hover {
   transition-duration: 0.3s;
 
 }
+
+
+/* social links */
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 24px;
+  margin: auto;
+  padding: 24px 0px 24px 0px;
+}
+
+#social-links ion-icon {
+  padding: 16px;
+  border-radius: 40px;
+  background-color: grey;
+}
+
